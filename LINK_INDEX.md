@@ -1,5 +1,5 @@
 # 📎 Index Link Files — Archivio TFA
-_Aggiornato: 2025-11-06 15:50_
+_Aggiornato: 2025-11-06 15:53_
 
 | Cartella | File | Link |
 |---|---|---|
