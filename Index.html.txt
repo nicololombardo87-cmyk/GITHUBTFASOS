@@ -1,0 +1,79 @@
+<!doctype html>
+<html lang="it">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Archivio TFA Sostegno</title>
+  <style>
+    :root {
+      --text:#111; --sub:#555; --line:#e5e5e5; --link:#0b67ff; --bg:#fafafa; --cardbg:#fff;
+    }
+    body { font-family: system-ui, -apple-system, Segoe UI, Roboto, sans-serif; background: var(--bg); margin:0; padding:28px 20px; color:var(--text); }
+    header { max-width:860px; margin:0 auto 30px; }
+    h1 { margin:0 0 6px; font-size:28px; font-weight:600; }
+    .sub { margin:0 0 22px; color:var(--sub); font-size:15px; }
+    main { max-width:860px; margin:0 auto; }
+    .section { margin:34px 0 12px; font-size:13px; color:var(--sub); text-transform:uppercase; letter-spacing:.1em; }
+    .grid { display:grid; grid-template-columns:repeat(auto-fit,minmax(240px,1fr)); gap:12px; }
+    a.card { display:block; padding:16px 18px; background:var(--cardbg); border:1px solid var(--line);
+      border-radius:10px; text-decoration:none; color:inherit; transition:background .15s ease; }
+    a.card:hover { background:#f3f6ff; }
+    a.card h3 { margin:0 0 4px; font-size:17px; font-weight:500; }
+    a.card p { margin:0; font-size:14px; color:var(--sub); }
+    footer { max-width:860px; margin:38px auto 0; color:var(--sub); font-size:12px; }
+    footer a { color:var(--link); }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Archivio TFA Sostegno</h1>
+    <p class="sub">Raccolta organizzata dei materiali del percorso TFA sostegno.</p>
+  </header>
+
+  <main>
+    <div class="section">Moduli</div>
+    <div class="grid">
+      <a class="card" href="./TFA_SOSTEGNO/00_ADMIN_E_ORGANIZZAZIONE/">
+        <h3>00 · Admin & Organizzazione</h3><p>Calendario, checklist, log, link rapidi.</p>
+      </a>
+      <a class="card" href="./TFA_SOSTEGNO/01_PEI_e_Didattica_Speciale__Pastore/">
+        <h3>01 · PEI e Didattica Speciale</h3><p>Pastore</p>
+      </a>
+      <a class="card" href="./TFA_SOSTEGNO/02_Metacognizione_e_Cooperative_Learning__Pomponi/">
+        <h3>02 · Metacognizione & Cooperative Learning</h3><p>Pomponi</p>
+      </a>
+      <a class="card" href="./TFA_SOSTEGNO/03_TIC_PNSD_DigComp_DigCompEdu__Papale/">
+        <h3>03 · TIC · PNSD · DigComp</h3><p>Papale</p>
+      </a>
+      <a class="card" href="./TFA_SOSTEGNO/04_Disabilita_Sensoriali_e_Intellettive__Cottini_Olivieri/">
+        <h3>04 · Disabilità Sensoriali & Intellettive</h3><p>Cottini · Olivieri</p>
+      </a>
+      <a class="card" href="./TFA_SOSTEGNO/05_Codici_Comunicativi__Pastore/">
+        <h3>05 · Codici Comunicativi</h3><p>Pastore</p>
+      </a>
+      <a class="card" href="./TFA_SOSTEGNO/06_Legislazione_Scolastica__Cellamare/">
+        <h3>06 · Legislazione Scolastica</h3><p>Cellamare</p>
+      </a>
+      <a class="card" href="./TFA_SOSTEGNO/07_Attivita_Motoria_e_Sviluppo_PsicoFisico__Girolami/">
+        <h3>07 · Attività Motoria & Sviluppo Psico-Fisico</h3><p>Girolami</p>
+      </a>
+      <a class="card" href="./TFA_SOSTEGNO/08_Lingue_Tecniche_(Francese_Inglese)/">
+        <h3>08 · Lingue Tecniche</h3><p>FR · EN</p>
+      </a>
+      <a class="card" href="./TFA_SOSTEGNO/09_Didattica_Area_Antropologica__Pastore/">
+        <h3>09 · Didattica Area Antropologica</h3><p>Pastore</p>
+      </a>
+      <a class="card" href="./TFA_SOSTEGNO/11_OUTPUT_FINALI/">
+        <h3>11 · Output Finali</h3><p>Esami scritti e elaborati</p>
+      </a>
+      <a class="card" href="./TFA_SOSTEGNO/12_ATTUAZIONE_IN_CLASSE/">
+        <h3>12 · Attuazione in Classe</h3><p>N.R. e P.A.</p>
+      </a>
+    </div>
+  </main>
+
+  <footer>
+    <p>Repository: <a href="https://github.com/nicololombardo87-cmyk/GITHUBTFASOS">GITHUBTFASOS</a></p>
+  </footer>
+</body>
+</html>
