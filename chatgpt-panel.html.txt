@@ -1,0 +1,108 @@
+<!doctype html>
+<html lang="it">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>ChatGPT Control Panel — Archivio TFA Sostegno</title>
+  <style>
+    :root { --text:#111; --sub:#555; --line:#e8e8e8; --link:#0b67ff; --bg:#fafafa; --card:#fff; }
+    * { box-sizing: border-box; }
+    body { font-family: system-ui,-apple-system,Segoe UI,Roboto,Arial,sans-serif; background: var(--bg); color: var(--text); margin: 0; }
+    header, main, footer { max-width: 860px; margin: 0 auto; padding: 22px 18px; }
+    h1 { margin: 0 0 6px; font-size: 26px; font-weight: 650; }
+    .sub { margin: 0 0 18px; color: var(--sub); }
+    .section { margin: 28px 0 10px; font-size: 13px; color: var(--sub); text-transform: uppercase; letter-spacing: .12em; }
+    .grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(240px, 1fr)); gap: 12px; }
+    a.card, .card {
+      display: block; background: var(--card); border: 1px solid var(--line); border-radius: 10px; padding: 14px 16px;
+      text-decoration: none; color: inherit;
+    }
+    a.card:hover { background: #f5f8ff; }
+    .card h3 { margin: 0 0 4px; font-size: 17px; font-weight: 560; }
+    .card p { margin: 0; color: var(--sub); font-size: 14px; }
+    .list { background: var(--card); border: 1px solid var(--line); border-radius: 10px; padding: 12px 14px; }
+    .list ul { margin: 8px 0 0; padding-left: 18px; }
+    .hint { font-size: 13px; color: var(--sub); margin-top: 8px; }
+    footer { color: var(--sub); font-size: 12px; }
+    footer a { color: var(--link); }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>ChatGPT Control Panel</h1>
+    <p class="sub">Pannello minimale per condividere con ChatGPT i materiali del TFA senza incollare ogni volta i link.</p>
+  </header>
+
+  <main>
+    <!-- Sezione 1: Accesso rapido ai moduli -->
+    <div class="section">Moduli principali</div>
+    <div class="grid">
+      <a class="card" href="./TFA_SOSTEGNO/00_ADMIN_E_ORGANIZZAZIONE/">
+        <h3>00 · Admin & Organizzazione</h3><p>Calendario, checklist, log, link rapidi.</p>
+      </a>
+      <a class="card" href="./TFA_SOSTEGNO/01_PEI_e_Didattica_Speciale__Pastore/">
+        <h3>01 · PEI e Didattica Speciale</h3><p>Pastore</p>
+      </a>
+      <a class="card" href="./TFA_SOSTEGNO/02_Metacognizione_e_Cooperative_Learning__Pomponi/">
+        <h3>02 · Metacognizione & Cooperative Learning</h3><p>Pomponi</p>
+      </a>
+      <a class="card" href="./TFA_SOSTEGNO/03_TIC_PNSD_DigComp_DigCompEdu__Papale/">
+        <h3>03 · TIC · PNSD · DigComp</h3><p>Papale</p>
+      </a>
+      <a class="card" href="./TFA_SOSTEGNO/04_Disabilita_Sensoriali_e_Intellettive__Cottini_Olivieri/">
+        <h3>04 · Disabilità Sensoriali & Intellettive</h3><p>Cottini · Olivieri</p>
+      </a>
+      <a class="card" href="./TFA_SOSTEGNO/05_Codici_Comunicativi__Pastore/">
+        <h3>05 · Codici Comunicativi</h3><p>Pastore</p>
+      </a>
+      <a class="card" href="./TFA_SOSTEGNO/06_Legislazione_Scolastica__Cellamare/">
+        <h3>06 · Legislazione Scolastica</h3><p>Cellamare</p>
+      </a>
+      <a class="card" href="./TFA_SOSTEGNO/07_Attivita_Motoria_e_Sviluppo_PsicoFisico__Girolami/">
+        <h3>07 · Attività Motoria & Sviluppo Psico-Fisico</h3><p>Girolami</p>
+      </a>
+      <a class="card" href="./TFA_SOSTEGNO/08_Lingue_Tecniche_(Francese_Inglese)/">
+        <h3>08 · Lingue Tecniche</h3><p>FR · EN</p>
+      </a>
+      <a class="card" href="./TFA_SOSTEGNO/09_Didattica_Area_Antropologica__Pastore/">
+        <h3>09 · Didattica Area Antropologica</h3><p>Pastore</p>
+      </a>
+      <a class="card" href="./TFA_SOSTEGNO/11_OUTPUT_FINALI/">
+        <h3>11 · Output Finali</h3><p>4 esami · 2 elaborati</p>
+      </a>
+      <a class="card" href="./TFA_SOSTEGNO/12_ATTUAZIONE_IN_CLASSE/">
+        <h3>12 · Attuazione in Classe</h3><p>N.R. · P.A.</p>
+      </a>
+    </div>
+
+    <!-- Sezione 2: Materiali da analizzare (To-Process) -->
+    <div class="section">Materiali da analizzare · To-Process per ChatGPT</div>
+    <div class="list">
+      <p class="hint">Incolla qui sotto (in questa pagina, come elenco) i link ai file/cartelle che vuoi che ChatGPT legga. Suggerimento: usa i link “blob/main/…” dei singoli file su GitHub.</p>
+      <ul>
+        <!-- Esempi di uso (sostituisci con i tuoi link) -->
+        <li><a href="https://github.com/USER/REPO/blob/main/TFA_SOSTEGNO/05_Codici_Comunicativi__Pastore/02_Slide/Slide_Comunicazione.pdf">Slide Comunicazione · modulo 05 (PDF)</a></li>
+        <li><a href="https://github.com/USER/REPO/blob/main/TFA_SOSTEGNO/01_PEI_e_Didattica_Speciale__Pastore/03_Normativa/DM_153_2023.pdf">DM 153/2023 (Normativa)</a></li>
+        <li><a href="https://github.com/USER/REPO/blob/main/TFA_SOSTEGNO/12_ATTUAZIONE_IN_CLASSE/01_NR/05_Esercitazioni/Griglia_Osservazione.docx">Griglia osservazione N.R. (DOCX)</a></li>
+      </ul>
+      <p class="hint">Quando mi scrivi in chat: “Apri i file dal pannello (sezione To-Process)”, io userò l’elenco qui sopra senza chiederti i link ogni volta.</p>
+    </div>
+
+    <!-- Sezione 3: Link rapidi utili -->
+    <div class="section">Link rapidi</div>
+    <div class="grid">
+      <a class="card" href="./index.html">
+        <h3>🏠 Torna alla Home</h3><p>Homepage dell’archivio.</p>
+      </a>
+      <a class="card" href="https://github.com/nicololombardo87-cmyk/GITHUBTFASOS">
+        <h3>📦 Repository GitHub</h3><p>Apri il repo su GitHub.</p>
+      </a>
+    </div>
+  </main>
+
+  <footer>
+    <p>© Archivio TFA Sostegno — Pannello per ChatGPT · <a href="https://nicololombardo87-cmyk.github.io/GITHUBTFASOS/">Sito</a> · <a href="https://github.com/nicololombardo87-cmyk/GITHUBTFASOS">Repo</a></p>
+  </footer>
+</body>
+</html>
+
