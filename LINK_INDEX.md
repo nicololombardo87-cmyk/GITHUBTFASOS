@@ -1,8 +1,9 @@
 # 📎 Index Link Files — Archivio TFA
-_Aggiornato: 2025-11-06 12:37_
+_Aggiornato: 2025-11-06 15:53_
 
 | Cartella | File | Link |
 |---|---|---|
+| `/` | `LINK_INDEX.md` | [Apri](https://github.com/nicololombardo87-cmyk/GITHUBTFASOS/blob/main/LINK_INDEX.md) |
 | `/` | `README.md` | [Apri](https://github.com/nicololombardo87-cmyk/GITHUBTFASOS/blob/main/README.md) |
 | `TFA_SOSTEGNO/00_ADMIN_E_ORGANIZZAZIONE` | `README_TFA_SOSTEGNO.docx` | [Apri](https://github.com/nicololombardo87-cmyk/GITHUBTFASOS/blob/main/TFA_SOSTEGNO/00_ADMIN_E_ORGANIZZAZIONE/README_TFA_SOSTEGNO.docx) |
 | `TFA_SOSTEGNO/01_Dis__Sensoriali__Olivieri/02_Slide_e_fonti_docenti` | `lezione-1-dis-sensoriali-04-09-.pdf` | [Apri](https://github.com/nicololombardo87-cmyk/GITHUBTFASOS/blob/main/TFA_SOSTEGNO/01_Dis__Sensoriali__Olivieri/02_Slide_e_fonti_docenti/lezione-1-dis-sensoriali-04-09-.pdf) |
@@ -79,7 +80,7 @@ _Aggiornato: 2025-11-06 12:37_
 | `TFA_SOSTEGNO/12_Ling__Matematico__Girolami/02_Slide_e_fonti_docenti` | `1_DIDATTICA_SPECIALE_LINGUAGGIO_LOGICO_MATEMATICO.pdf` | [Apri](https://github.com/nicololombardo87-cmyk/GITHUBTFASOS/blob/main/TFA_SOSTEGNO/12_Ling__Matematico__Girolami/02_Slide_e_fonti_docenti/1_DIDATTICA_SPECIALE_LINGUAGGIO_LOGICO_MATEMATICO.pdf) |
 | `TFA_SOSTEGNO/12_Ling__Matematico__Girolami/03_Normativa_e_riferimenti` | `INSEGNARE DOMANI_SOSTEGNO (1).pdf` | [Apri](https://github.com/nicololombardo87-cmyk/GITHUBTFASOS/blob/main/TFA_SOSTEGNO/12_Ling__Matematico__Girolami/03_Normativa_e_riferimenti/INSEGNARE%20DOMANI_SOSTEGNO%20%281%29.pdf) |
 | `TFA_SOSTEGNO/12_Ling__Matematico__Girolami/04_Schede_osservative_e_strumenti` | `SCHEMA_PROGETTAZIONE LEZIONE_GIROLAMI.docx` | [Apri](https://github.com/nicololombardo87-cmyk/GITHUBTFASOS/blob/main/TFA_SOSTEGNO/12_Ling__Matematico__Girolami/04_Schede_osservative_e_strumenti/SCHEMA_PROGETTAZIONE%20LEZIONE_GIROLAMI.docx) |
-| `TFA_SOSTEGNO/12_Ling__Matematico__Girolami/05_Esercitazioni_e_compiti` | `Definitivo_Gruppo_STIL_PROGETTAZIONE LEZIONE.docx   .docx.pdf` | [Apri](https://github.com/nicololombardo87-cmyk/GITHUBTFASOS/blob/main/TFA_SOSTEGNO/12_Ling__Matematico__Girolami/05_Esercitazioni_e_compiti/Definitivo_Gruppo_STIL_PROGETTAZIONE%20LEZIONE.docx%20%20%20.docx.pdf) |
+| `TFA_SOSTEGNO/12_Ling__Matematico__Girolami/05_Esercitazioni_e_compiti` | `Definitivo_Gruppo_STIL_PROGETTAZIONE LEZIONE.pdf` | [Apri](https://github.com/nicololombardo87-cmyk/GITHUBTFASOS/blob/main/TFA_SOSTEGNO/12_Ling__Matematico__Girolami/05_Esercitazioni_e_compiti/Definitivo_Gruppo_STIL_PROGETTAZIONE%20LEZIONE.pdf) |
 | `TFA_SOSTEGNO/12_Ling__Matematico__Girolami/05_Esercitazioni_e_compiti` | `Gruppo B -Buone Pratiche inclusive.pdf` | [Apri](https://github.com/nicololombardo87-cmyk/GITHUBTFASOS/blob/main/TFA_SOSTEGNO/12_Ling__Matematico__Girolami/05_Esercitazioni_e_compiti/Gruppo%20B%20-Buone%20Pratiche%20inclusive.pdf) |
 | `TFA_SOSTEGNO/12_Ling__Matematico__Girolami/05_Esercitazioni_e_compiti` | `Lezione pdf 2.pdf` | [Apri](https://github.com/nicololombardo87-cmyk/GITHUBTFASOS/blob/main/TFA_SOSTEGNO/12_Ling__Matematico__Girolami/05_Esercitazioni_e_compiti/Lezione%20pdf%202.pdf) |
 | `TFA_SOSTEGNO/12_Ling__Matematico__Girolami/05_Esercitazioni_e_compiti` | `PROGETTAZIONE LEZIONE_Gruppo1.pdf` | [Apri](https://github.com/nicololombardo87-cmyk/GITHUBTFASOS/blob/main/TFA_SOSTEGNO/12_Ling__Matematico__Girolami/05_Esercitazioni_e_compiti/PROGETTAZIONE%20LEZIONE_Gruppo1.pdf) |
