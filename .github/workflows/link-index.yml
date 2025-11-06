@@ -1,0 +1,71 @@
+name: Build LINK_INDEX.md (safe)
+
+on:
+  push:
+    branches: [ main ]
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  build-index:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Setup Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.x'
+
+      - name: Generate LINK_INDEX.md
+        run: |
+          python - <<'PY'
+          import os, urllib.parse, datetime
+
+          OWNER = "nicololombardo87-cmyk"
+          REPO  = "GITHUBTFASOS"
+          BRANCH = "main"
+          EXTS = (".pdf",".pptx",".docx",".md")
+
+          rows = []
+          for base, _, files in os.walk("."):
+              if "/.git" in base or base.startswith("./.git"):
+                  continue
+              for f in files:
+                  if f.startswith("."):
+                      continue
+                  if f.lower().endswith(EXTS):
+                      p = os.path.join(base,f).replace("\\","/")
+                      if p.startswith("./"): p = p[2:]
+                      url = urllib.parse.quote(p)
+                      rows.append((os.path.dirname(p) or "/", f, f"https://github.com/{OWNER}/{REPO}/blob/{BRANCH}/{url}"))
+
+          rows.sort()
+          lines = []
+          lines.append("# 📎 Index Link Files — Archivio TFA\n")
+          lines.append(f"_Aggiornato: {datetime.datetime.now().strftime('%Y-%m-%d %H:%M')}_\n")
+          lines.append("\n| Cartella | File | Link |\n|---|---|---|\n")
+          for mod, fname, link in rows:
+              lines.append(f"| `{mod}` | `{fname}` | [Apri]({link}) |\n")
+
+          with open("LINK_INDEX.md","w",encoding="utf-8") as fh:
+              fh.writelines(lines)
+          print(f"Generato LINK_INDEX.md con {len(rows)} voci.")
+          PY
+
+      - name: Commit only if changed
+        run: |
+          if git diff --quiet -- LINK_INDEX.md; then
+            echo "Nessun cambiamento nell'indice — niente commit."
+          else
+            git config user.name "github-actions[bot]"
+            git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+            git add LINK_INDEX.md
+            git commit -m "docs: auto-update LINK_INDEX.md"
+            git push
+
