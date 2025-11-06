@@ -1,5 +1,5 @@
 # 📎 Index Link Files — Archivio TFA
-_Aggiornato: 2025-11-06 15:53_
+_Aggiornato: 2025-11-06 16:04_
 
 | Cartella | File | Link |
 |---|---|---|
@@ -87,6 +87,7 @@ _Aggiornato: 2025-11-06 15:53_
 | `TFA_SOSTEGNO/12_Ling__Matematico__Girolami/05_Esercitazioni_e_compiti` | `PROGETTAZIONE LEZIONE_SEC classe A -NAVIGANDO NEL PIANO CARTESIANO.pdf` | [Apri](https://github.com/nicololombardo87-cmyk/GITHUBTFASOS/blob/main/TFA_SOSTEGNO/12_Ling__Matematico__Girolami/05_Esercitazioni_e_compiti/PROGETTAZIONE%20LEZIONE_SEC%20classe%20A%20-NAVIGANDO%20NEL%20PIANO%20CARTESIANO.pdf) |
 | `TFA_SOSTEGNO/12_Ling__Matematico__Girolami/05_Esercitazioni_e_compiti` | `UN PIZZICO DI... MATEMATICA IN CUCINA.pdf` | [Apri](https://github.com/nicololombardo87-cmyk/GITHUBTFASOS/blob/main/TFA_SOSTEGNO/12_Ling__Matematico__Girolami/05_Esercitazioni_e_compiti/UN%20PIZZICO%20DI...%20MATEMATICA%20IN%20CUCINA.pdf) |
 | `TFA_SOSTEGNO/12_Ling__Matematico__Girolami/05_Esercitazioni_e_compiti` | `prg PROF GIROLAMI (1) da inviare (2.pdf` | [Apri](https://github.com/nicololombardo87-cmyk/GITHUBTFASOS/blob/main/TFA_SOSTEGNO/12_Ling__Matematico__Girolami/05_Esercitazioni_e_compiti/prg%20PROF%20GIROLAMI%20%281%29%20da%20inviare%20%282.pdf) |
+| `TFA_SOSTEGNO/13_Legislazione_Scolastica__Gallerani/02_Slide_e_fonti_docenti` | `Convenzione ONU.pdf` | [Apri](https://github.com/nicololombardo87-cmyk/GITHUBTFASOS/blob/main/TFA_SOSTEGNO/13_Legislazione_Scolastica__Gallerani/02_Slide_e_fonti_docenti/Convenzione%20ONU.pdf) |
 | `TFA_SOSTEGNO/17_Neuropsichiatria_infantile__Scandale/02_Slide_e_fonti_docenti` | `disturbo-da-stress-post-traumatico-prima-parte-prof-tommaso-scandale.pdf` | [Apri](https://github.com/nicololombardo87-cmyk/GITHUBTFASOS/blob/main/TFA_SOSTEGNO/17_Neuropsichiatria_infantile__Scandale/02_Slide_e_fonti_docenti/disturbo-da-stress-post-traumatico-prima-parte-prof-tommaso-scandale.pdf) |
 | `TFA_SOSTEGNO/17_Neuropsichiatria_infantile__Scandale/02_Slide_e_fonti_docenti` | `disturbo-da-stress-post-traumatico-seconda-parte-prf-tommaso-scandale.pdf` | [Apri](https://github.com/nicololombardo87-cmyk/GITHUBTFASOS/blob/main/TFA_SOSTEGNO/17_Neuropsichiatria_infantile__Scandale/02_Slide_e_fonti_docenti/disturbo-da-stress-post-traumatico-seconda-parte-prf-tommaso-scandale.pdf) |
 | `TFA_SOSTEGNO/17_Neuropsichiatria_infantile__Scandale/02_Slide_e_fonti_docenti` | `disturbo-di-panico-e-attacco-di-panico-prof-tommaso-scandale-unicusano.pdf` | [Apri](https://github.com/nicololombardo87-cmyk/GITHUBTFASOS/blob/main/TFA_SOSTEGNO/17_Neuropsichiatria_infantile__Scandale/02_Slide_e_fonti_docenti/disturbo-di-panico-e-attacco-di-panico-prof-tommaso-scandale-unicusano.pdf) |
